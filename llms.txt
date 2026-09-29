@@ -1,0 +1,39 @@
+# Kuardio
+
+> Kuardio is a free iPhone app for the QardioArm blood pressure monitor. Qardio, Inc. has closed and its app no longer
+> works; Kuardio lets QardioArm owners keep using their cuff. It starts measurements over Bluetooth, saves readings to
+> Apple Health, shows history and trends, and creates PDF or CSV reports to share with a doctor. No account, no server,
+> no data collected. Kuardio is an independent app, not affiliated with Qardio, Inc.
+
+Key facts:
+
+- Works with: QardioArm model A100 and QardioArm 2. Other Qardio devices (QardioBase, QardioCore) are not supported.
+- Requires: an iPhone with iOS 26 or later. There is no Android, iPad or Mac version.
+- Price: free. Every feature is free, with no ads and no paywall. Optional "VIP Donor" subscriptions (monthly, every
+  6 months, yearly, and yearly Family plans with Family Sharing) support maintenance and unlock only cosmetic extras
+  such as alternate app icons and accent colours.
+- Data and privacy: no account, no analytics, no tracking. Readings (blood pressure and pulse) are stored in Apple
+  Health. Settings and reminders sync through the user's private iCloud. Nothing leaves the device unless the user
+  shares a report.
+- Old Qardio readings: readings the Qardio app saved to Apple Health appear in Kuardio. Data kept only in Qardio's
+  cloud can't be reached any more.
+- Features: one-tap measurement with live cuff pressure; single readings or an average of 2–3 readings; detects when
+  the cuff stops because the arm moved; visitor mode; tags (arm, position, feeling, medication, note); weekly, monthly
+  and yearly trends; optional reference categories from ESH 2023, ACC/AHA 2017 or NICE NG136; 7-day home monitoring
+  checklist; PDF and CSV reports; reminders with a "Measure now" action; Lock Screen and Home Screen widgets; Siri
+  Shortcuts; dark mode, large text and VoiceOver.
+- Regulatory: Kuardio is a wellness logging app, not a medical device. It does not diagnose, treat or give medical
+  advice. The measurement is made by the QardioArm, which was FDA-cleared (510(k) K140067) and CE-marked.
+- Availability: submitted to Apple for App Store review (September 2026). The website will link to the App Store
+  listing once it's live.
+- Contact: contact@kuardio.com
+
+## Pages
+
+- [Home](https://kuardio.com/): features, screenshots, donations and FAQ
+- [Support](https://kuardio.com/support.html): connecting and pairing the cuff, interrupted measurements, Apple Health,
+  donations and troubleshooting
+- [Privacy policy](https://kuardio.com/privacy.html): what is stored where; no data collected
+- [Terms of use](https://kuardio.com/terms.html): Apple's standard EULA, subscription terms and the medical disclaimer
+- [Regulatory information](https://kuardio.com/regulatory.html): wellness positioning and the QardioArm's FDA and CE
+  clearances

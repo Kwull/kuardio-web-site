@@ -11,6 +11,12 @@ Plain HTML and one stylesheet, served by GitHub Pages from `main` (root), custom
 | `terms.html` | Terms of Use (Apple Standard EULA + subscription terms), linked from the app (Support Kuardio) |
 | `regulatory.html` | Wellness positioning and the QardioArm's FDA / CE clearances, for App Review |
 
+| `llms.txt` | Plain-text summary for AI assistants and crawlers (keep its facts in step with the pages) |
+| `assets/img/og-image.jpg` | 1200 × 630 link preview (Open Graph / Twitter card) used by every page |
+
+`index.html` carries JSON-LD structured data (WebSite, Organization, MobileApplication, FAQPage). The FAQPage block
+repeats the visible FAQ word for word: when you change the FAQ, change it there too.
+
 The app hard-codes these URLs (`App/Sources/Model/AppLinks.swift` in the app repository), so keep the file names.
 Screenshots in `assets/img/` come from the app repository's `docs/appstore/screenshots/`.
 
