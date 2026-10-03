@@ -13,7 +13,7 @@ Key facts:
   6 months, yearly, and yearly Family plans with Family Sharing) support maintenance and unlock only cosmetic extras
   such as alternate app icons and accent colours.
 - Data and privacy: no account, no analytics, no tracking. Readings (blood pressure and pulse) are stored in Apple
-  Health, with a copy on the iPhone so the history opens quickly. Settings and reminders sync through the user's private iCloud. Nothing leaves the device unless the user
+  Health. Settings and reminders sync through the user's private iCloud. Nothing leaves the device unless the user
   shares a report.
 - Old Qardio readings: readings the Qardio app saved to Apple Health appear in Kuardio. Data kept only in Qardio's
   cloud can't be reached any more.
