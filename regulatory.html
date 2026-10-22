@@ -70,13 +70,42 @@
     <a href="/assets/docs/FDA_510k_K220106_QardioArm_2.pdf">Clearance and summary (PDF)</a> ·
     <a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K220106">FDA database</a></td></tr>
   <tr><th>EU · CE 2460</th><td>QardioArm A100, Class IIa under the Medical Device Directive 93/42/EEC. Notified body
-    DNV GL Nemko Presafe AS (2460). Declaration of Conformity by Qardio Netherlands B.V.
-    (<a href="https://web.archive.org/web/20240403131041/https://www.qardio.com/wp-content/uploads/2023/08/EC_Declaration_of_Conformity_A100_Nov2018_signed.pdf">archived copy</a>).</td></tr>
+    DNV GL Nemko Presafe AS (2460). Declaration of Conformity by Qardio Netherlands B.V., 1 November 2018.
+    <a href="/assets/docs/EU_Declaration_of_Conformity_QardioArm_A100_2018.pdf">Declaration (PDF)</a> ·
+    <a href="https://web.archive.org/web/20240403131041/https://www.qardio.com/wp-content/uploads/2023/08/EC_Declaration_of_Conformity_A100_Nov2018_signed.pdf">archived original</a>.</td></tr>
 </table>
 </div>
 <p>The FDA 510(k) summary for K140067 says the cuff "requires an external device (e.g. a smartphone) to display results"
   and its indications for use state that it "is not intended to be a diagnostic device". Kuardio is that display and
   logging part and makes no diagnostic claims.</p>
+
+<h2 id="validation">Validation of the cuff</h2>
+<p>Independent, peer-reviewed validations of the QardioArm against the European Society of Hypertension International
+  Protocol revision 2010 (ESH-IP 2010). The cuff passed in each. Open access; copies of the full texts are hosted here.</p>
+<ul>
+  <li>Chahine MN et al. Validation of BP devices QardioArm in the general population and Omron M6 Comfort in type II
+    diabetic patients according to the ESH-IP. <em>Med Devices (Auckl)</em> 2018;11:11–20.
+    <a href="https://doi.org/10.2147/MDER.S142126">doi:10.2147/MDER.S142126</a> ·
+    <a href="/assets/docs/chahine-2018-med-devices-general-population.pdf">PDF</a></li>
+  <li>Mazoteras-Pardo V et al. The QardioArm Blood Pressure App for Self-Measurement in an Obese Population: Validation
+    Study Using the ESH-IP Revision 2010. <em>JMIR Mhealth Uhealth</em> 2018;6(10):e11632.
+    <a href="https://doi.org/10.2196/11632">doi:10.2196/11632</a> ·
+    <a href="/assets/docs/mazoteras-pardo-2018-jmir-mhealth-obese.pdf">PDF</a></li>
+  <li>Mazoteras-Pardo V et al. QardioArm Upper Arm Blood Pressure Monitor Against Omron M3 in Patients With Chronic Kidney
+    Disease: A Validation Study According to the ESH-IP Revision 2010. <em>J Med Internet Res</em> 2019;21(12):e14686.
+    <a href="https://doi.org/10.2196/14686">doi:10.2196/14686</a> ·
+    <a href="/assets/docs/mazoteras-pardo-2019-jmir-ckd.pdf">PDF</a></li>
+  <li>Mazoteras-Pardo V et al. QardioArm Blood Pressure Monitoring in a Population With Type 2 Diabetes: Validation Study.
+    <em>J Med Internet Res</em> 2020;22(7):e19781. <a href="https://doi.org/10.2196/19781">doi:10.2196/19781</a> ·
+    <a href="/assets/docs/mazoteras-pardo-2020-jmir-type2-diabetes.pdf">PDF</a></li>
+</ul>
+
+<h2 id="test-report">How Kuardio uses the cuff: test report</h2>
+<p>Kuardio does not measure; it starts the cuff, receives the result over the standard Bluetooth Blood Pressure Service
+  and stores it in Apple Health unchanged. The <a href="/assets/docs/Kuardio-QardioArm-test-report.pdf">interoperability
+  test report (PDF)</a> documents the protocol, a logged session with a real cuff (every packet with raw bytes and decoded
+  values), the automated tests that replay it, error handling and end-to-end value integrity. The raw session log is in the
+  <a href="https://github.com/Kwull/Kuardio/tree/main/docs/ble">source repository</a>.</p>
 
 <h2>User manuals</h2>
 <p>Qardio's websites are going offline. Archived copies of the official QardioArm user manual (instructions for use,
@@ -100,6 +129,17 @@
     listing</a></td></tr>
 </table>
 </div>
+<p><strong>Can the rights holder be reached?</strong> No. In his public report of 25 August 2026 the court-appointed trustee of
+  Qardio Netherlands B.V. writes that Qardio's intellectual property was transferred for no consideration to the parent company,
+  Qardio, Inc., and that he "has repeatedly tried to get in touch with the parent company … unfortunately, to date this has led to
+  nothing" (our translation; <a href="/assets/docs/nl-curator-report-9-2026-08-25.pdf">report 9, Dutch, PDF</a>). The IP is
+  listed with sale proceeds of € 0.00 and no interested parties.</p>
+<p><strong>The trademark.</strong> "QardioArm" is US trademark Reg. No. 4971993 of Qardio, Inc. (San Francisco). The USPTO record
+  shows the attorney of record withdrew on 4 October 2024 and the 10-year renewal due by 7 June 2026 has not been filed
+  (<a href="https://tsdr.uspto.gov/#caseNumber=86629597&amp;caseType=SERIAL_NO&amp;searchType=statusSearch">USPTO TSDR</a> ·
+  <a href="/assets/docs/us-trademark-qardioarm-4971993-tmview.pdf">record captured 22 October 2026, PDF</a>). Kuardio uses the
+  name only to say which cuff it works with, the referential use that trademark law allows for compatible products, and contains
+  no Qardio code, firmware, logos, images or services.</p>
 <p>All of these records, captured on 8 October 2026, in one document:
   <a href="/assets/docs/Qardio-status-evidence.pdf">Qardio status: public records (PDF)</a>.</p>
 
